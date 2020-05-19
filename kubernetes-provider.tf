@@ -1,3 +1,6 @@
+data "google_client_config" "default" {
+}
+
 provider "kubernetes" {
   load_config_file       = false
   host                   = "https://${google_container_cluster.gke-cluster.endpoint}"
