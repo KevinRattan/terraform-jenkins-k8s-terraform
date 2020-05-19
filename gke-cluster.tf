@@ -1,5 +1,5 @@
 resource "google_container_cluster" "gke-cluster" {
-  name               = "${var.app_name}-cluster"
+  name               = "${var.app_name}-${var.build_number}-cluster"
   location           = var.gcp_zone_1
   initial_node_count = 3
 

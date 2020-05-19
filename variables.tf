@@ -33,3 +33,8 @@ variable "app_name" {
   type        = string
   description = "Application Name"
 }
+
+variable "build_number" {
+  type        = string
+  description = "The current build"
+}
