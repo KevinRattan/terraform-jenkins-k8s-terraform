@@ -1,6 +1,5 @@
 # GCP Settings
 # project_id   =  # Enter  in pipeline.
-# build_number   =  # Enter  in pipeline.
 container_registry = "gcr.io"
 # external_image_name = # Enter in pipeline.
 # internal_image_name = # Enter in pipeline.
